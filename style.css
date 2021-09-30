@@ -296,7 +296,7 @@ header{
     .about-us{
         background-color: #104e92;
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row; */
     }
 
     .about-us .about-layout{
@@ -318,15 +318,22 @@ header{
         letter-spacing: 3px;
     }
 
-    .about-us .about-img{
+    .about-img{
+        width: 500px;
         display: flex;
         flex-wrap: wrap; 
+        padding: 5px;
+        justify-content: space-between;
+        margin: auto;
     }
 
     .about-img img{
-        width: 200px;
+        width: 47%;
         height: 190px;
-        margin: 20px;
+        margin-bottom: 25px
+        /* margin: 5px;
+        padding: 5px;
+        */
     }
 
     /* ABOUT US SECTION ENDS HERE */
