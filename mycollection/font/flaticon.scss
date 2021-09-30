@@ -1,0 +1,37 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?57e9a1b1fe5d54ed52aa9aa8718b0a88") format("truetype"),
+url("./flaticon.woff?57e9a1b1fe5d54ed52aa9aa8718b0a88") format("woff"),
+url("./flaticon.woff2?57e9a1b1fe5d54ed52aa9aa8718b0a88") format("woff2"),
+url("./flaticon.eot?57e9a1b1fe5d54ed52aa9aa8718b0a88#iefix") format("embedded-opentype"),
+url("./flaticon.svg?57e9a1b1fe5d54ed52aa9aa8718b0a88#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "waste": "\f101",
+    "household": "\f102",
+    "paint-roller": "\f103",
+);
+
+.flaticon-waste:before {
+    content: map-get($flaticon-map, "waste");
+}
+.flaticon-household:before {
+    content: map-get($flaticon-map, "household");
+}
+.flaticon-paint-roller:before {
+    content: map-get($flaticon-map, "paint-roller");
+}
