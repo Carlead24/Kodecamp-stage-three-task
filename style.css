@@ -21,6 +21,10 @@ hr{
     margin: 15px 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     background-image: url(./images/hero-bg.jpg);
     background-repeat: no-repeat;
@@ -221,8 +225,9 @@ header{
         background-color: rgb(206, 197, 197);
         background-image:url(./images/billionphotos1079319min.png);
         background-repeat: no-repeat;
-        background-size: 500px 700px; 
-        height: 100vh;  
+        background-size: 500px 700px;
+        /*height: 100vh;*/
+        min-height: 100vh;
     }
 
     .container{
@@ -236,7 +241,7 @@ header{
         font-weight: bolder;
     }
 
-    .container .quality2{
+    .text p{
         font-style: normal;
         font-size: 1rem;
         font-weight: normal;
@@ -271,8 +276,7 @@ header{
         display: flex;
         flex-direction: column;
         width: 350px;
-        height: 450px;
-        margin: 15px;
+        margin: auto;
         padding: 50px 50px;
     }
 
@@ -378,6 +382,8 @@ header{
      }
     /* TO-DO SECTION ENDS HERE */
 
+    /* FOOTER SECTION STARTS HERE */
+
         footer{
             background-color: rgb(54, 51, 51);
             color: white;
@@ -390,5 +396,303 @@ header{
         footer p{
             margin-bottom: 40px;
             padding: 10px 20px;
+
+        }
+
+        /* FOOTER SECTION ENDS HERE */
+
+
+        /* RESPONSIVENESS STARTS */
+
+        @media (max-width:768px){
+            header{
+                background-position: 60% 50%;
+                width: 100%;
+            }
+
+            .hero{
+                padding: 43% 5%;
+            }
+
+            .hero .hero-small{
+                font-size: 2.8rem;
+            }
+
+            .hero .hero-big{
+                font-size: 4.5rem;
+            }
+
+            hr{
+                width: 90%;
+            }
+
+            .btn{
+                padding: 25px 26px;
+            }
+
+            .service{
+                width: 100%;
+            }
+
+            .service .btn{
+                margin: 40px 310px;
+            }
+
+            .service .service-small{
+                font-size: 1.5rem;
+            }
+
+            .help-space{
+                width: 100%;
+                flex-direction: column;
+                height: fit-content;
+                justify-content: center;
+            }
+
+            .space2 .needhelp-text1{
+                padding: 5px;
+            }
+
+            .needhelp-text{
+                padding: 50px 10px;
+            }
+
+            .img1, 
+            .img2{
+                width: 600px;
+                height: 300px;
+            }
+
+            .quality{
+                background-size: 60% 100%; 
+            }
+
+            .container{
+                flex-direction: row;
+                padding: 100px;
+                padding-right: 116px;
+                width: 100%;
+            }
+
+            .text{
+                padding: 100px;
+                padding-right: 150px;
+            }
+
+            .hr2{
+                width: 100%;
+            }
+
+            .quality .container{
+                margin-right: 30px;
+            }
+
+            .container .quality1{
+                font-size: 2.5rem;
+                padding-right: 30px;
+            }
+ 
+            .ourservices{
+                display: flex;
+                flex-direction: column;
+                height: fit-content;
+                padding: 2rem 0;
+               
+            }
+
+            .our-layout{
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .service-heading{
+                font-size: 3rem;
+                font-style: normal;
+                padding: 5px 200px;
+            }
+
+            .box{
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+            }
+        
+            .box p{
+                font-size: 1.4rem;
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+
+            .box img{
+                height: 100px;
+                width: 100px;
+                display: inline-block;
+            }
+
+            .about-us{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .about-layout h1{
+                font-size: 4rem;
+            }
+            .todo-layout{
+                font-size: 4rem;
+                display: inline;
+            }    
+        }
+
+        @media (max-width:426px){
+            .hero{
+                width: 60px;
+            }
+
+
+            .hero .hero-small{
+                font-size: 2.25rem;
+                text-decoration: none;
+            }
+
+            .hero .hero-big{
+                font-size: 3.6rem;
+            }
+
+            hr{
+                width: 2000%;
+            }
+
+            .hero .icon1{
+                display: none;
+            }
+
+            .service{
+                padding: 40px 0 40px ;   
+            }
+
+            .service .service-big{
+                margin: 10px;
+            }
+
+            .service .service-small{
+                margin: 50px;
+                font-size: large;
+                margin-bottom: 50px;
+                text-align: center;
+            }
+
+            .btn{
+                padding: 20px 30px;
+                
+            }
+
+            .service .btn{
+                margin: 10px 130px;
+            }
+
+            .needhelp{
+                padding: 3rem 1.5rem ; 
+           }
+
+           .space1{
+            width: 100%;
+            }
+
+           .space1 .needhelp-text{
+               font-size: large;
+               padding-left: 45px;
+               padding-top: 5px;
+               text-align: start;
+               margin: 0px 50px;
+           }
+
+           .space2{
+               width: 100%;
+           }
+
+           .space2 .needhelp-text1{
+               font-size: 1.7rem;
+               padding: 0px;
+               padding-left: 45px;
+               margin-bottom: 10px;
+           }
+
+           .space2 .needhelp-text2{
+                font-size: 1.5rem;
+                padding: 0px;
+                padding-left: 45px
+            }
+
+            .img1, 
+            .img2{
+                padding: 20px;
+                width: 370px;
+                height: 400px;
+            }
+
+            .quality{
+                width: 100%;
+                background-size: 90% 70%;
+                background-position: left;
+                display: flex;   
+                flex-direction: row;
+
+            }
+
+            .text{
+                padding: 30px 40px;
+            }
+
+            .hr2{
+                width: 100%;
+            }
+
+            .ourservices{
+                width: 100%;
+            }
+
+            .service-heading{
+                font-size: 2.5rem;
+                padding: 10px 70px;
+            }
+
+            .box{
+                padding: 10px;
+                margin: 10px 60px;
+            }
+
+            .about-us{
+                width: 100%;
+               
+            }
+
+            .about-us .about-layout{
+                padding: 60px;
+            }
+
+            .about-us .about-img{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .about-img{
+                width: 150%;
+                padding: 0px 0px 0px 60px;
+            }
+
+            .to-do{
+                width: 100%;
+            }
+
+            .btn0{
+                padding: 50px;
+                margin: -40px 0 -70px 0;
+            }
+
+            .todo-layout .todo-small{
+                font-weight: lighter;
+            }
+
 
         }
