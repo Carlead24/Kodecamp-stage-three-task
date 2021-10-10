@@ -545,22 +545,31 @@ header{
         }
 
         @media (max-width:426px){
+
+            header{
+                background-image: url(./images/hero-bg.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 155%;
+
+            }
+
             .hero{
-                width: 60px;
+                padding: 93% 12%;
             }
 
 
             .hero .hero-small{
-                font-size: 2.25rem;
+                font-size: 3.50rem;
                 text-decoration: none;
             }
 
             .hero .hero-big{
-                font-size: 3.6rem;
+                font-size: 5.6rem;
             }
 
             hr{
-                width: 2000%;
+                width: 105%;
             }
 
             .hero .icon1{
@@ -568,7 +577,8 @@ header{
             }
 
             .service{
-                padding: 40px 0 40px ;   
+                padding: 40px 0 40px ;
+                width: 156%;   
             }
 
             .service .service-big{
@@ -588,15 +598,16 @@ header{
             }
 
             .service .btn{
-                margin: 10px 130px;
+                margin: 10px 250px;
             }
 
             .needhelp{
+                width: 156%;
                 padding: 3rem 1.5rem ; 
            }
 
            .space1{
-            width: 100%;
+                width: 100%;
             }
 
            .space1 .needhelp-text{
@@ -614,30 +625,29 @@ header{
            .space2 .needhelp-text1{
                font-size: 1.7rem;
                padding: 0px;
-               padding-left: 45px;
+               padding-left: 90px;
                margin-bottom: 10px;
            }
 
            .space2 .needhelp-text2{
                 font-size: 1.5rem;
                 padding: 0px;
-                padding-left: 45px
+                padding-left: 90px
             }
 
             .img1, 
             .img2{
                 padding: 20px;
-                width: 370px;
+                width: 570px;
                 height: 400px;
             }
 
             .quality{
-                width: 100%;
-                background-size: 90% 70%;
-                background-position: left;
+                width: 156%;
+                background-size: 100% 90%;
+                background-position: top;
                 display: flex;   
                 flex-direction: row;
-
             }
 
             .text{
@@ -649,7 +659,7 @@ header{
             }
 
             .ourservices{
-                width: 100%;
+                width: 156%;
             }
 
             .service-heading{
@@ -663,12 +673,12 @@ header{
             }
 
             .about-us{
-                width: 100%;
+                width: 156%;
                
             }
 
             .about-us .about-layout{
-                padding: 60px;
+                padding: 100px;
             }
 
             .about-us .about-img{
@@ -677,21 +687,31 @@ header{
             }
 
             .about-img{
-                width: 150%;
-                padding: 0px 0px 0px 60px;
+                width: 170%;
+                padding: 0px 0px 0px 115px;
             }
 
             .to-do{
-                width: 100%;
+                width: 156%;
             }
 
             .btn0{
-                padding: 50px;
-                margin: -40px 0 -70px 0;
+                padding: 200px;
+                margin: -160px 0 -190px 0;
             }
 
             .todo-layout .todo-small{
+                font-family: Helvetica;
+                font-size: 2.5rem;
                 font-weight: lighter;
+            }
+
+            .todo-layout .todo-big{
+                font-size: 3.7rem;
+            }
+
+            footer{
+                width: 156%;
             }
 
 
