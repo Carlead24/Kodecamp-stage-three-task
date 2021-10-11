@@ -550,7 +550,7 @@ header{
                 background-image: url(./images/hero-bg.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
-                width: 155%;
+                width: 156%;
 
             }
 
@@ -569,7 +569,8 @@ header{
             }
 
             hr{
-                width: 105%;
+                width: 100%;
+                border: 4px solid white;
             }
 
             .hero .icon1{
@@ -581,13 +582,18 @@ header{
                 width: 156%;   
             }
 
+            .service .service-mini{
+                font-size: 1.8rem;
+            }
+
             .service .service-big{
-                margin: 10px;
+                font-size: 4rem;
+                margin: 5px;
             }
 
             .service .service-small{
-                margin: 50px;
-                font-size: large;
+                margin: 40px;
+                font-size: 2.2rem;
                 margin-bottom: 50px;
                 text-align: center;
             }
@@ -644,7 +650,6 @@ header{
 
             .quality{
                 width: 156%;
-                background-size: 100% 90%;
                 background-position: top;
                 display: flex;   
                 flex-direction: row;
@@ -652,10 +657,12 @@ header{
 
             .text{
                 padding: 30px 40px;
+                width: 90%;
             }
 
             .hr2{
                 width: 100%;
+                border: 4px solid red;
             }
 
             .ourservices{
@@ -665,30 +672,46 @@ header{
             .service-heading{
                 font-size: 2.5rem;
                 padding: 10px 70px;
+                font-size: 3rem;
+                margin: 20px;
             }
 
             .box{
+                width: 70%;
                 padding: 10px;
                 margin: 10px 60px;
             }
 
+            .box h1{
+                font-size: 2.6rem;
+                margin: 20px;
+
+            }
+
+            .box p{
+                font-size: 1.7rem;
+                margin: 10px;
+
+            }
+
             .about-us{
                 width: 156%;
-               
             }
 
             .about-us .about-layout{
                 padding: 100px;
+                text-align: left;
             }
 
             .about-us .about-img{
                 display: flex;
                 flex-direction: column;
+                align-items: center;
             }
 
-            .about-img{
-                width: 170%;
-                padding: 0px 0px 0px 115px;
+            .about-img img{
+                width: 100%;
+                height: 100%;
             }
 
             .to-do{
