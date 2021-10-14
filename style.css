@@ -411,19 +411,19 @@ header{
             }
 
             .hero{
-                padding: 43% 5%;
+                padding: 63% 5%;
             }
 
             .hero .hero-small{
-                font-size: 2.8rem;
+                font-size: 3.0rem;
             }
 
             .hero .hero-big{
-                font-size: 4.5rem;
+                font-size: 5.5rem;
             }
 
             hr{
-                width: 90%;
+                width: 100%;
             }
 
             .btn{
@@ -551,7 +551,6 @@ header{
                 background-repeat: no-repeat;
                 background-size: cover;
                 width: 156%;
-
             }
 
             .hero{
@@ -736,6 +735,109 @@ header{
             footer{
                 width: 156%;
             }
+        }
 
+        @media (max-width:375px){
+            header{
+                width: 176%;
+            }
 
+            .hero{
+                padding: 490px 50px;
+            }
+
+            .hero .icon1{
+                display: none;
+            }
+
+            .service{
+                width: 176%;
+            }
+
+            .needhelp{
+                width: 170%;
+            }
+
+            .img1, 
+            .img2{
+                padding: 20px;
+                width: 550px;
+                height: 450px;
+            }
+
+            .quality{
+                width: 176%;
+
+            }
+
+            .ourservices{
+                width: 176%;
+
+            }
+
+            .about-us{
+                width: 176%;
+
+            }
+
+            .to-do{
+                width: 176%;
+
+            }
+
+            footer{
+                width: 176%;
+            }
+        }
+
+        @media (max-width:320px){
+            header{
+                width: 206%;
+            }
+
+            .hero{
+                padding: 400px 50px;
+            }
+
+            .hero .icon1{
+                display: none;
+            }
+
+            .service{
+                width: 206%;
+            }
+
+            .needhelp{
+                width: 206%;
+            }
+
+            .img1, 
+            .img2{
+                padding: 20px;
+                width: 600px;
+                height: 450px;
+            }
+
+            .quality{
+                width: 206%;
+
+            }
+
+            .ourservices{
+                width: 206%;
+
+            }
+
+            .about-us{
+                width: 206%;
+
+            }
+
+            .to-do{
+                width: 206%;
+            }
+
+            footer{
+                width: 206%;
+            }
         }
