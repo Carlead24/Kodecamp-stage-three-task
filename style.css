@@ -841,3 +841,163 @@ header{
                 width: 206%;
             }
         }
+
+        @media (max-width:145px){
+            header{
+                width: 402%;
+            }
+
+            .hero{
+                padding: 110% 12%;
+            }
+
+            .hero .hero-small{
+                font-size: 2.30rem;
+                text-decoration: none;
+            }
+
+            .hero .hero-big{
+                font-size: 5.6rem;
+            }
+
+            hr{
+                width: 100%;
+                border: 4px solid white;
+            }
+
+            .hero .icon1{
+                display: none;
+            }
+
+            .service{
+                width: 410%;
+            }
+
+            .needhelp{
+                width: 410%;
+            }
+
+            .img1, 
+            .img2{
+                padding: 20px;
+                width: 600px;
+                height: 450px;
+            }
+
+            .quality{
+                width: 410%;
+
+            }
+
+            .ourservices{
+                width: 410%;
+
+            }
+
+            .about-us{
+                width: 410%;
+
+            }
+
+            .to-do{
+                width: 410%;
+            }
+
+            footer{
+                width: 410%;
+            }
+
+         }
+
+         @media (max-width:100px){
+            header{
+                width: 400%;
+            }
+
+            .hero{
+                padding: 240% 12%;
+            }
+
+            .hero .hero-small{
+                font-size: 2.50rem;
+                text-decoration: none;
+            }
+
+            .hero .hero-big{
+                font-size: 3.6rem;
+            }
+
+            hr{
+                width: 100%;
+                border: 4px solid white;
+            }
+
+            .hero .icon1{
+                display: none;
+            }
+
+            .service{
+                width: 350%;
+            }
+
+            .service .btn{
+                margin: 80px 90px;
+            }
+
+            .btn{
+                padding: 20px 30px;
+            }
+
+            .needhelp{
+                width: 400%;
+            }
+
+            .img1, 
+            .img2{
+                padding: 20px;
+                width: 350px;
+                height: 450px;
+            }
+
+            .quality{
+                width: 400%;
+
+            }
+
+            .ourservices{
+                width: 400%;
+
+            }
+
+            .about-us{
+                width: 400%;
+            }
+
+            .about-us .about-layout{
+                padding: 60px;
+                text-align: left;
+            }
+
+            .about-us .about-img{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .about-img img{
+                width: 90%;
+                height: 90%;
+            }
+
+            .to-do{
+                width: 400%;
+            }
+
+            .to-do .btn2{
+                margin: 51px -12px;
+            }
+
+            footer{
+                width: 400%;
+            }
+
+         }
