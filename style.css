@@ -404,6 +404,58 @@ header{
 
         /* RESPONSIVENESS STARTS */
 
+        @media (max-width:1024px){
+            header{
+                background-position: 60% 50%;
+                width: 100%;
+            }
+
+            .hero{
+                padding: 100% 5%;
+            }
+
+            
+            .hero .hero-small{
+                font-size: 5.0rem;
+            }
+
+            .hero .hero-big{
+                font-size: 7.2rem;
+            }
+
+            hr{
+                width: 110%;
+            }
+
+            .service .btn{
+                margin: 40px 430px;
+            }
+
+            .help-space{
+                width: 100%;
+                flex-direction: column;    
+            }
+
+            .space2 .needhelp-text1{
+                padding: 5px;
+            }
+
+            .needhelp-text{
+                padding: 50px 10px;
+            }
+
+            .img1, 
+            .img2{
+                width: 800px;
+                height: 500px;
+            }
+
+            .quality{
+                margin-bottom: 60px;
+                border: 1px solid red;
+            }
+        }
+
         @media (max-width:768px){
             header{
                 background-position: 60% 50%;
@@ -411,15 +463,15 @@ header{
             }
 
             .hero{
-                padding: 63% 5%;
+                padding: 95% 5%;
             }
 
             .hero .hero-small{
-                font-size: 3.0rem;
+                font-size: 4.0rem;
             }
 
             .hero .hero-big{
-                font-size: 5.5rem;
+                font-size: 6.2rem;
             }
 
             hr{
@@ -554,7 +606,7 @@ header{
             }
 
             .hero{
-                padding: 93% 12%;
+                padding: 100% 12%;
             }
 
 
